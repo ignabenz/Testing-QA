@@ -19,9 +19,6 @@ jobs:
       with:
         python-version: 3.8
 
-    - name: Install Dependencies
-      run: pip install -r requirements.txt
-
     - name: Run Tests
-      run: python calculator_with_tests.py
+      run: python calculator.py
 
