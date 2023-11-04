@@ -19,13 +19,13 @@ def divide(x, y):
 class TestCalculator(unittest.TestCase):
 
     def test_add(self):
-        self.assertEqual(add(5, 3), 8)
+        self.assertEqual(add(10, 2), 12)
 
     def test_subtract(self):
-        self.assertEqual(subtract(8, 3), 5)
+        self.assertEqual(subtract(10, 2), 8)
 
     def test_multiply(self):
-        self.assertEqual(multiply(4, 7), 28)
+        self.assertEqual(multiply(10, 2), 20)
 
     def test_divide(self):
         self.assertEqual(divide(10, 2), 5)
